@@ -926,3 +926,14 @@ input[type=checkbox]:checked + label {
   font-style: normal;
 }
 /*End of contact styling*/
+
+.img-catalog img {
+    width: 30%;
+    margin: auto;
+    height: auto;
+  }
+  
+  .catalog-body {
+  background-color: burlywood; 
+  background: linear-gradient(to bottom right, tan, white, blue);
+  }
