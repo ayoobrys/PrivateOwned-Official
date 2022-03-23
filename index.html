@@ -4,7 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Index</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>PRIVATE OWNED</title>
   </head>
-  <body></body>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">PRIVATE OWNED</h2>
+        <div class="toggle"></div>
+      </header>
+      <video src="/IMG/4_3 editCompress.mp4" loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>WELCOME</h2>
+        <h3>TO THE PARTY</h3>
+
+        <a href="https://private-owned.com/" target="_blank">EXPLORE</a>
+      </div>
+      <ul class="social">
+        <li>
+          <a
+            href="https://soundcloud.com/brandon-jones-169863210?ref=clipboard&p=i&c=1"
+            target="_blank"
+            ><img src="https://i.ibb.co/x7P24fL/soundcloud.png"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/jstbecool" target="_blank"
+            ><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/private.owned/?hl=en"
+            target="_blank"
+            ><img src="https://i.ibb.co/ySwtH4B/instagram.png"
+          /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="https://private-owned.com/" target="_blank">Shop</a></li>
+        <li><a href="about.html" target="_blank">About</a></li>
+        <li><a href="catalog.html" target="_blank">Catalog</a></li>
+        <li><a href="contact.html" target="_blank">Contact</a></li>
+        <li><a href="services.html" target="_blank">Services</a></li>
+      </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
 </html>
